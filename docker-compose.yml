@@ -12,4 +12,4 @@ services:
       # Mount the database files to make data persistent
       - ./backend/db:/usr/src/app/db
     ports:
-      - 9000:9000
+      - 9080:9000
